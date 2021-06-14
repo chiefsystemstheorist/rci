@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .tc {
@@ -21,6 +21,7 @@ body {
   text-align: right;
   width: 250px;
   font-family: Georgia, serif;
+  font-size: 24px;
 }
 
 #menu .title {

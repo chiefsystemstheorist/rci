@@ -8,7 +8,7 @@ body {
     font-size: 18px;
     font-family: Georgia, serif;
     background: #f2f7f9;
-    display: inline-block;
+    display: block;
     background:"#f2f7f9";
 	max-width: 350px;
 	overflow: hidden;

@@ -10,7 +10,7 @@ body {
     background: #f2f7f9;
     display: block;
     background:"#f2f7f9";
-	max-width: 350px;
+	max-width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;

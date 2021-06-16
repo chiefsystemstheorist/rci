@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .tc {
@@ -9,9 +9,12 @@ body {
     font-size: 18px;
     font-family: Georgia, serif;
     background: #f2f7f9;
-    width:500px;
     display: inline-block;
     background:"#f2f7f9";
+	max-width: 350px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
     }
 
 #menu {
@@ -24,14 +27,12 @@ body {
 }
 
 #menu .title {
-  font-size: 24px;
 }
 
 #menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 24px;
 }
 
 #menu li {

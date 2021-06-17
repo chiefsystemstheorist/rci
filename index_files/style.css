@@ -5,12 +5,13 @@ body {
 
 .tc {
     margin-top: 15px;
+    float: left;
     font-size: 18px;
     font-family: Georgia, serif;
     background: #f2f7f9;
-    display: block;
+    display: inline-block;
     background:"#f2f7f9";
-	max-width: 100%;
+	max-width: 350px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -57,10 +58,14 @@ body {
   margin-top: 15px;
   float: left;
   width: 500px;
+  font-family: Georgia, serif;
+  background: #f2f7f9;
+  display: inline-block;
+  
 }
 
 #content h1, #content h2, #content h3 {
-  font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
+    
   margin: 0;
 }
 

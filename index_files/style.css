@@ -62,7 +62,7 @@ a,abbr,acronym,address,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,d
 body{font:12px/20px arial,verdana,sans-serif;background:#f2f7f9; font-family:Georgia, serif;color:#333; display:block; }
 #container,.content-wrap{width:2000px;margin:0 auto;}
 
-#content{width:850px;margin-right:30px;float:left}
+#content{width:850px;margin-right:30px;}
 
 #box {
   width: 75px;

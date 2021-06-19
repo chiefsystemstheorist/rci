@@ -52,7 +52,7 @@ a,abbr,acronym,address,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,d
 {margin:0;padding:0;border:0;outline:0;font-size:20px;vertical-align:baseline;background:0 0}
 body{;background:#f2f7f9; font-family:Georgia, serif;color:#333; display:block; word-wrap: break-word;}
 #container,.content-wrap{width:1500px;}
-#content{width:50%;margin-right:30px; margin-left:10px;float:left;}
+#content.single-post{width:50%;margin-right:30px; margin-left:10px;float:left;}
 #sidebar{width:300px;float:left;}
 
 #box {

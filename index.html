@@ -1,35 +1,60 @@
 <html>
-    <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+  <meta charset="UTF-8">
+  <title>working notes | @manu</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<style>
+.Right
+{
+float:right;
+}
+body 
+{
+font-family: Georgia, serif;
+font-size: 1rem;
+}
+h3 
+{
+font-family: Georgia, serif;
+font-weight: bold;
+}
+.header-list
+{
+width:14.285%;
+}
+.flex
+{
+display:flex;
+<!--border: 1px solid red;-->   
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
+{
+    margin-left:5px; 
+}
+.bg-light
+{
+background-color:orange !important;
+}
 
+.col-md-2 
+{ flex: 0 0 auto;
+width:auto;
+}
+.col-md-10
+{ flex:auto;
+width:auto;
+margin-left:10px;
+    }
     
-    <title>working notes | @manu</title>
- 
-    <script type="text/javascript" src="/index_files/hn.js"></script> 
-    <link rel="stylesheet" href="./index_files/style.css">
-    <link rel="shortcut icon" href="/index_files/dp.png">
-    <style id="default">
-    .default 
-    { 
-        font-family:Georgia, serif; font-size:18px; color:black;
-       }
-    </style>
-
-
+</style>
 </head>
-    <body>
-<table>    
-    <div id="header-bottom-left">
-        <span>
-            <h1>radical computer ideas</h1>
-        </span>
-    </div>
-</table>
-<table width="100%">
-<tbody>
-<tr>
-<td class="tc" style="height:auto;">
-	<span>
+<body>
+<h3> radical computer ideas</h3>
+<!--navbar-->
+
+<div width="100%" cellspacing="0" cellpadding="1" style="background:#ff6600">
+<span>
 		<a href="/codebase/startup-master/rci/index.html">About</a> | 
 		<a href="/codebase/startup-master/rci/pages/link-excerpts.html">Links</a> | 
 		<a href="indexed-tweets.html">indexed tweets</a> | 
@@ -38,116 +63,85 @@
 		<a href="NN.html">kallamouni /</a> | 
 		<a href="culturexhiring.html">culture x hiring</a> | 
 	</span>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-<div class="side"><div class="spacer"><form action="https://old.reddit.com/search" id="search" role="search"><input type="text" name="q" placeholder="search" tabindex="20" control-id="ControlID-1"><input type="submit" value="" tabindex="22" control-id="ControlID-2"><div id="searchexpando" class="infobar"><div id="moresearchinfo"><a href="#" id="search_hidemore">[-]</a><p>use the following search parameters to narrow your results:</p><dl><dt>subreddit:<i>subreddit</i></dt><dd>find submissions in "subreddit"</dd><dt>author:<i>username</i></dt><dd>find submissions by "username"</dd><dt>site:<i>example.com</i></dt><dd>find submissions from "example.com"</dd><dt>url:<i>text</i></dt><dd>search for "text" in url</dd><dt>selftext:<i>text</i></dt><dd>search for "text" in self post contents</dd><dt>self:yes (or self:no)</dt><dd>include (or exclude) self posts</dd><dt>nsfw:yes (or nsfw:no)</dt><dd>include (or exclude) results marked as NSFW</dd></dl><p>e.g. <code>subreddit:aww site:imgur.com dog</code></p><p><a href="https://www.reddit.com/wiki/search">see the search faq for details.</a></p></div><p><a href="https://www.reddit.com/wiki/search" id="search_showmore">advanced search: by author, subreddit...</a></p></div></form></div><div class="spacer"><form method="post" action="https://www.reddit.com/post/login" id="login_login-main" class="login-form login-form-side"><input type="hidden" name="op" value="login-main" control-id="ControlID-3"><input name="user" placeholder="username" type="text" maxlength="20" tabindex="1" control-id="ControlID-4"><input name="passwd" placeholder="password" type="password" tabindex="1" control-id="ControlID-5"><div class="g-recaptcha" data-sitekey="6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC"></div><div class="status"></div><div id="remember-me"><input type="checkbox" name="rem" id="rem-login-main" tabindex="1" control-id="ControlID-6"><label for="rem-login-main">remember me</label><a class="recover-password" href="/password">reset password</a></div><div class="submit"><span class="throbber"></span><button class="btn" type="submit" tabindex="1" control-id="ControlID-7">login</button></div><div class="clear"></div></form></div><div class="spacer"><div class="sidebox submit submit-link"><div class="morelink"><a href="https://old.reddit.com/submit" data-event-action="submit" data-type="subreddit" data-event-detail="link" class="login-required access-required" target="_top">Submit a new link</a><div class="nub"></div></div></div></div><div class="spacer"><div class="sidebox submit submit-text"><div class="morelink"><a href="https://old.reddit.com/submit?selftext=true" data-event-action="submit" data-type="subreddit" data-event-detail="self" class="login-required access-required" target="_top">Submit a new text post</a><div class="nub"></div></div></div></div><div class="spacer"><a href="/premium" alt="get premium" class="premium-banner-outer"><form action="/premium" class="premium-banner"><div class="premium-banner__logo"></div><div class="premium-banner__title">Get an ad-free experience with special benefits, and directly support Reddit.</div><button class="premium-banner__button" control-id="ControlID-8">get reddit premium</button></form></a></div></div>
--->
-        
-        
-<div id="container" class="hfeed">
-<div id="main">
-
-<div id="content">
-<br>	I’m Manu. 22. I don't have an excellent academic track record and I haven't built anything so far. I finally I’m able to articulate my thoughts into writing [you can always bridge your thoughts]
-<br>	so, why am I writing. (a) to think better. (b) The byproduct of the pursuit of a great product idea, is the content or more like copy, you could use for distribution, to build conviction, a beta-list.
-<br>	core-clusters
-    <!--aggregators are publishers-->
-<br>	observed-behaviours
-<br>	[1] leave 100s of tabs open for days/ weeks -
-<br>	<a href="https://www.notion.so/manublj/a8ed8f719e1d4cb683829e789c2c5245?v=8b6d0fe10d884145b91b19c818b91c86">tweets as validation</a>]]
-<br>	Open Tabs = cognitive spaces = thought-trains. \[\[c0 clipboards & interfaces\]\] -- browser
+</div>
+<!--container-->
+<div class="container flex" style="margin-top:10px;text-align:justify;">
+<div class="col-md-2" style="text-align:left;">
+ <a href="#">Sign Up for Beta</a>
+</div>
+<div class="col-md-10" >
+<p>I'm Manu. 22. I don't have an excellent academic track record and I haven't built anything so far. I finally I'm able to articulate my thoughts into writing [you can always bridge your thoughts]
+so, why am I writing. (a) to think better. (b) The byproduct of the pursuit of a great product idea, is the content or more like copy, you could use for distribution, to build conviction, a beta-list.</p>
+<br>core-clusters
+<br>observed-behaviours
+    <br>[1] leave 100s of tabs open for days/ weeks - <a href="https://www.notion.so/manublj/a8ed8f719e1d4cb683829e789c2c5245?v=8b6d0fe10d884145b91b19c818b91c86">tweets as validation</a>
+<br>Open Tabs = cognitive spaces = thought-trains. \[\[c0 clipboards & interfaces\]\] -- browser
 [[<a href="https://news.ycombinator.com/item?id=16671957">comments from hackernews</a>]]
 [[<a href="https://rybakov.com/blog/open_tabs_are_cognitive_spaces">Tabs are cognitive spaces</a>]]
-<br>	opening new tabs(thought-trains) is the default behaviour
-<br>		Our brain is a constant stream of thoughts and we keep jumping from train to train, from tab to tab, travelling through cognitive spaces, without losing enthusiasm, without closing it so it can rot there for the next 3 months or so, trying to find the answer to something.
-<br>	While reading about a topic/ doing research, The user starts with one tab and as he reads the article, we tend to click on 'open in new tab' often, he’ll click on ‘open in new tab’ often, switching tabs and, in the end there’ll be some 100-150 or more open tabs.	
-<br>	for example -	
-<br>	this is how I google - I started with 'financial inclusion in India', 'RBI guidelines for NBFCs, Pre-paid Instruments. etc' and ended up in 'mobile money in Nigeria'.	
-<br>	0 to 59 tabs in 3 windows and 2 browsers in less than an hour. Somewhere in one of those ‘open in new tab’ clicks user will be opening links which might be a wholly new topic from what he/she was reading previously.	
-<br>    In the end, no. of threads created would be equal to the no. of times you went down a new rabbit hole.
-<br>    In retrospect, you might end up with hundreds of links you found from different platforms on the Internet. 
-<br>	[[flow of information in the funnel]]	
-<br>    Trying to understand the origins of the hundreds of links unread, lying dead in our Pocket/ Instapaper and all the other links that got bookmarked, but didn't make it to the read-later app.	
-<br>	- /surfing/	All those links you saved, come from one of these places.	
-<br>	[a] // DISCOVERY---|---------------------------------------------------------------------------------------------------------------------------------------------------------------	
-<br>	(1) newsletters	
-<br>	(2) feeds - twitter, linkedin, reddit, tumblr, instagram, facebook.etc	
-<br>	(3) browser /surfing/ (power users - research driven education)	
-<br>			     |
-<br>              3.1|-----from Goggle's SERP
-<br> 		     3.2|-----through backlinks t1 ------------------------------------------------------------------------------------------------------------------------------------------------		
-<br>	This is how the list is created [[DISCOVERY]]. 
-<br>    
-<br>	I see a lot of people following to make sure they get the most out of whatever they read	
-<br>	example	
-<br>	a tweet -->b "@readwise save thread", and readwise will save that tweet -->c enter, spaced repetition.-->d note-taking tools integrating with spaced repetition to import excerpts and highlights. (example - readwise to roam-research.inc)	
-<br>	(b) Pocket / Instapaper 	
-<br>	(c) readwise [[controlling exposure]]	
-<br>	(d) roam-research.inc [[video-game -- wordprocessor]]	
-<br>	5 imaginary - back to platforms as a creator/ independent publisher.	
+<p>opening new tabs(thought-trains) is the default behaviour.</p>
 
-<br>	As long as I have foldered/tagged properly, I can easily find it when needed and maybe re-read it and try to, retain most of what I read.	
-<br>	I see there is nothing wrong in saving most of the things I come across	
-<br> But, it becomes really hard to keep track of all the living bookmarks, just like how we keep losing track of what we were thinking and how we got there.	
-<br>The browser is capable of handling 100s of tabs in multiple windows, but isn't it a clusterfuck ?! current solutions seem like a joke	
-<br>Only if I can cache it properly in a structured way, it’ll be possible for me to retain better.	
-<br>Hard to make a satisfying graph of uniquely shaped internal representations, which are assimilated just-in-case over time, 	
-<br>but when connected/ foldered/ labelled properly, would be awealth of knowledge, once it hits critical mass.	
-<br>To make sense out of the all the chaos, you would start categorizing or foldering the knowledge you gathered (external cognition). 		
+<p>Our brain is a constant stream of thoughts and we keep jumping from train to train, from tab to tab, travelling through cognitive spaces, without losing enthusiasm, without closing it so it can rot there for the next 3 months or so, trying to find the answer to something.</p>
 
+<p>While reading about a topic / doing research, The user starts with one tab and as he reads the article, we tend to click on 'open in new tab' often,
+He'll click on 'Open in new tav often', switching tabs and , in the end there will be some 100-150 or more open tabs.</p>
 
-<br>		index / bookmark
-<br>		\[1\] [UIC] - home feed (what is now chronological) [i'm the curator, not the algorithm]<a href="/beta.html">linkfest</a>
-<br>		home-feed is basically the internet I set aside for myself for later consumption or for indexing it. 
-<br>		I need the reader app to queue it for me and even if I don't get back to it, naming is indexing, hence archived but searchable (resurfacing)
-<br>        2nd order consequences of me trying to solve for prioritizing the [home-feed]
-<br>		bringing consensus, [serps] 
-<br>		- curation (leaderboards)
-<br>		\[\] recommendation - [explore feed] curation - what to read and what to skip - [curation = creation][synthesis & compilations][produsable][t10]	
-<br>		explore feed - a ton of unrelated articles. this feed is made up of everything that I'm interested in.
-<br>		lists are the new search
-<br>		curation is the problem of the century
+<h6>for example -</h6>
+<p>this is  how I google - I started with 'financial inclusion in India', 'RBI guidelines for NBFCs, Pre-paid Instruments. etc' and ended up in 'mobile money in Nigeria'.</p>
 
-but for that to happen, they need to migrate here
-pocket was doing nothing
+<p>0 to 59 tabs in 3 windows and 2 browsera in less than an hour.somewhere in one of those 'open in new tab' clicks user will br opening links which might be a wolly new topic from what He/She was reading previously</p>
+<!-- <p> In the end, no. of threads created would be equal to the no. of times you went down a new rabbit hole.</p> -->
+<p>In the end, no.of threads created  would be equal to the no.of times you went down a new rabbit hole.</p>
 
-    
-<p>		// designing a product is keeping 5000 things in your brain -- these concepts -- and fitting them all together and kind of continuing to push to fit them together in new and different ways to get what you want.</p>
-		
-<br>		\[Subscribe now\]
-<br>		In the meantime, \[tell your friends\]
-<br>		—— பேட்டை காரன் பார்டி.
+<!-- <p>In retrospect, you might end up with hundreds of links you found from different platforms on the Internet. </p> -->
+<p>In retrospect, You might end up with hundreds of links you found from different platforms on the internet. </p>
 
-	</div>
-    <div class="sidebar">
-	<a href="beta.html">sign up for beta</a>
-    </div>
+<p> [[flow of information in the funnel]]</p>
+<p>Trying to understand the origins of the hundreds of links unread, lying dead in our Pocket/ Instapaper and all the other links that got bookmarked, but didn't make it to the read-later app.</p>
+<p>- /surfing/	All those links you saved, come from one of these places.</p>
+<p>[a] // DISCOVERY---|---------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>(1) newsletters	</p>
+<p>(2) feeds - twitter, linkedin, reddit, tumblr, instagram, facebook.etc</p>
+<p>(3) browser /surfing/ (power users - research driven education)</p>
+<p> 3.1|-----from Goggle's SERP</p>
+<p> 3.2|-----through backlinks t1 ------------------------------------------------------------------------------------------------------------------------------------------------	</p>
+<p>This is how the list is created [[DISCOVERY]].</p>
+<!-- <p>I see a lot of people following to make sure they get the most out of whatever they read	example</p> -->
+<p>I see a lot of people following to make sure they get the most out of whatever they read example</p>
+<p>a tweet -->b "@readwise save thread", and readwise will save that tweet -->c enter, spaced repetition.-->d note-taking tools integrating with spaced repetition to import excerpts and highlights. (example - readwise to roam-research.inc)</p>
+<p>(b) Pocket / Instapaper</p>
+<p>(c) readwise [[controlling exposure]]</p>
+<p>(d) roam-research.inc [[video-game -- wordprocessor]]</p>
+<p>5 imaginary - back to platforms as a creator/ independent publisher.</p>
+<p>As long as I have foldered/tagged properly, I can easily find it when needed and maybe re-read it and try to, retain most of what I read.I see there is nothing wrong in saving most of the things I come across	</p>
+<p> But, it becomes really hard to keep track of  all the living bookmarks, just like how we keep losing track of what we were thinking and how we got there.</p>
+<p>The browser is capable of handling 100s of tabs in multiple windows, but isn't it a clusterfuck ?! current solutions seem like a joke	
+Only if I can cache it properly in a structured way, it’ll be possible for me to retain better.</p>
+<p>Hard to make a satisfying graph of uniquely shaped internal representation ,which are assimilated just-in-case over time,but when connected/ foldered/ labelled properly, would be awealth of knowledge,once it hits critical mass.</p>
 
+<p>To make sense out of the all the chaos, you would start caregorizing or foldering the knowledge you gathered (external cognition).</p>
+<h6>index / bookmark</h6>
+<p>\[1\] [UIC] - home feed (what is now chronological) [i'm the curator, not the algorithm]<a href="/beta.html">linkfest</a>
+home-feed is basically the internet I set aside for myself for later consumption or for indexing it. </p>
+<p>I need the reader app to queue it for me and even if I don't get back to it, naming is indexing, hence archived but searchable (resurfacing)</p>
+<p> 2nd order consequences of me trying to solve for prioritizing the [home-feed]
+<br>bringing consensus, [serps]
+<br>curation (leaderboards)</p>
+<p>\[\] recommendation - [explore feed] curation - what to read and what to skip - [curation = creation][synthesis & compilations][produsable][t10]	</p>
+<p>explore feed - a ton of unrelated articles. this feed is made up of everything that I'm interested in.lists are the new search curation is the problem of the century</p>
+<p>but for that to happen, they need to migrate here pocket was doing nothing</p>
+<p>// designing a product is keeping 5000 things in your brain -- these concepts -- and fitting them all together and kind of continuing to push to fit them together in new and different ways to get what you want.</p>
+<p>\[Subscribe now\]</p>
+<p>In the meantime, \[tell your friends\]</p>
+<p>—— பேட்டை காரன் பார்டி.</p>
 </div>
-        </div>
-
-<table width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-    <td class="tc" style="height:auto";>
-       <div>
-            <p class="bottombar">
-                <a>radical computer ideas | curation is the problem of the century</a>         
-            </p>
-        </div>        
-    </td>
-</tr>
-</tbody>
-</table>
-        
-<a href="index.html"><img src="index_files/ascii-banner1.PNG"></a>
-        
-        
-        
+</div>
+<footer width="100%" cellspacing="0" cellpadding="1" style="background:#ff6600">
+  <!-- Copyright -->
+<div>
+    radical computer ideas | curation is the problem of the century
+</div>
+  <!-- Copyright -->
+</footer>
 </body>
 </html>
- 
+

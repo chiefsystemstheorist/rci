@@ -76,17 +76,13 @@ width:50%; margin-left:10px;
 #sidebar,.content-wrap,.main,.primary-menu .mobile-menu,.row,.search-form,.search-submit,.ticker .tickercontainer,.ticker .tickercontainer .mask,.ticker-section
 {white-space:normal; text-overflow: ellipsis;}
 a,abbr,acronym,address,big,blockquote,caption,cite,code,dd,del,dfn,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var
-{background:0 0}
+{background:#f2f7f9; font-family:Georgia, serif;color:#333; display:block; word-wrap: break-word;background:0 0}
 body {
   font-family: Georgia, serif;
   font-size: 1rem;
   margin: auto;
 }
-*, ::after, ::before {
-    box-sizing: border-box;
-}
 
-body{;background:#f2f7f9; font-family:Georgia, serif;color:#333; display:block; word-wrap: break-word;}
 
 #togg { min-width: 796px; }
 .comment a:link, .comment a:visited { text-decoration: underline; }

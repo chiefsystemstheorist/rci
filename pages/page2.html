@@ -6,458 +6,414 @@
     <title>working notes | @manu</title>
  
     <script type="text/javascript" src="/index_files/hn.js"></script> 
-    <link rel="stylesheet" href="/index_files/style.css">
-    <link rel="shortcut icon" href="/index_files/y18.png">
-    <style id="default">.default { font-family:Georgia, serif; font-size:18px; color:black; max-width: 80rem; margin: 0 auto; }</style>
+    <link rel="shortcut icon" href="/index_files/dp.png">
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <style>
+       body 
+        {
+	font-family: Georgia, serif;
+        font-size: 1.25rem;
+        margin:auto;
+
+        }   
+        h1
+        {
+        font-family: Georgia, serif;
+        font-weight: bold;
+        }
+        h3 
+        {
+        font-family: Georgia, serif;
+        font-weight: bold;
+        }
+        .sidebar 
+        { flex
+        border: 1px solid red; 
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+        text-align: right;
+        flex: 0 0 auto;
+        } /*.sidebar {width:50%; margin-left:10px;}*/
+        .sinlge-post
+        {
+        margin-left: 10px;
+	    }
+        /*.single-post {
+        width:50%; margin-left:10px;
+        }*/
+        
+
+        .flex {
+        display: flex;
+	font-family: Georgia, serif;
+        }
+        .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
+        {
+        margin-left:5px; 
+        }
+	abbr,acronym,address,big, body, blockquote,caption,cite,code,dd,del,dfn,dl,dt,em,fieldset,form,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,tt,ul,var
+{ font-family:Georgia, serif;color:#333;}
 
 
-</head>
+	    </style>
+    </head>
     <body>
-<div class="post-linkflair-media single-page comments-page">    
+<table>    
     <div id="header-bottom-left">
-        <span class="hover pagename redditname">
+        <span>
             <h1>radical computer ideas</h1>
         </span>
     </div>
-</div>
+</table>
+<div width="100%" cellspacing="0" cellpadding="1" style="background:#ff6600">
 
-
-<table>
-
-<tbody>
-
-
-
-    <div id="menu">
-        <span class="title">I'm glad you opened this link. Thanks for giving me a shot, I promise you won't be disappointed</span>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#about.html">About</a></li>
-            <li><a href="#indexed-tweets.html">indexed tweets</a></li>
-            <li><a href="#culture x hiring.html">culture x hiring</a></li>
-            <li><a href="#link-excerpts.html">Links</a></li>
-            <li><a href="#beta-list.html">Progress</a></li>
-            <li><a href="#aggregators-are-publishers.html">platforms, aggregators and publishers</a></li>
-            <li><a href="#social-capital.html">social-capital</a></li>
-            <li><a href="#wordprocessor.html">wordprocessor</a></li>
-            <li><a href="#NN.html">kallamouni /</a></li>
-            <!--
-            <li><a href="login.php">log-in</a></li>
-            <li><a href="signup.php">sign-up</a></li>
-            -->
-        </ul>
-<div> 
-
-
-</div>
-        <td class="default">
-<img src="/codebase/startup-master/rci/index_files/profile.jpg" height="130">
-
-<!-- toggle list
-<yt-icon-button id="button" class="dropdown-trigger style-scope ytd-menu-renderer" touch-feedback="">
-    <!--css-build:shady--
-    <button id="button" class="style-scope yt-icon-button" aria-label="More actions" control-id="ControlID-30">
-        <yt-icon class="style-scope ytd-menu-renderer">
-            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                <g class="style-scope yt-icon">
-                    <circle cx="5" cy="12" r="2" class="style-scope yt-icon"></circle>
-                    <circle cx="12" cy="12" r="2" class="style-scope yt-icon"></circle>
-                    <circle cx="19" cy="12" r="2" class="style-scope yt-icon"></circle>
-                </g>
-            </svg>
-            <!--css-build:shady--
-        </yt-icon>
-    </button>
-    <yt-interaction id="interaction" class="circular style-scope yt-icon-button">
-        <!--css-build:shady--
-        <div class="stroke style-scope yt-interaction"></div>
-        <div class="fill style-scope yt-interaction"></div>
-    </yt-interaction>
-</yt-icon-button>
+	<span>
+		<a href="/codebase/startup-master/rci/index.html">About</a> | 
+		<a href="/codebase/startup-master/rci/pages/link-excerpts.html">Links</a> | 
+		<a href="indexed-tweets.html">indexed tweets</a> | 
+		<a href="beta-list.html">beta</a> | 
+		<a href="people.html">people</a> | 
+		<a href="NN.html">kallamouni /</a> | 
+		<a href="culturexhiring.html">culture x hiring</a> | 
+	</span>
+	    </div>
+<!--
+<div class="side"><div class="spacer"><form action="https://old.reddit.com/search" id="search" role="search"><input type="text" name="q" placeholder="search" tabindex="20" control-id="ControlID-1"><input type="submit" value="" tabindex="22" control-id="ControlID-2"><div id="searchexpando" class="infobar"><div id="moresearchinfo"><a href="#" id="search_hidemore">[-]</a><p>use the following search parameters to narrow your results:</p><dl><dt>subreddit:<i>subreddit</i></dt><dd>find submissions in "subreddit"</dd><dt>author:<i>username</i></dt><dd>find submissions by "username"</dd><dt>site:<i>example.com</i></dt><dd>find submissions from "example.com"</dd><dt>url:<i>text</i></dt><dd>search for "text" in url</dd><dt>selftext:<i>text</i></dt><dd>search for "text" in self post contents</dd><dt>self:yes (or self:no)</dt><dd>include (or exclude) self posts</dd><dt>nsfw:yes (or nsfw:no)</dt><dd>include (or exclude) results marked as NSFW</dd></dl><p>e.g. <code>subreddit:aww site:imgur.com dog</code></p><p><a href="https://www.reddit.com/wiki/search">see the search faq for details.</a></p></div><p><a href="https://www.reddit.com/wiki/search" id="search_showmore">advanced search: by author, subreddit...</a></p></div></form></div><div class="spacer"><form method="post" action="https://www.reddit.com/post/login" id="login_login-main" class="login-form login-form-side"><input type="hidden" name="op" value="login-main" control-id="ControlID-3"><input name="user" placeholder="username" type="text" maxlength="20" tabindex="1" control-id="ControlID-4"><input name="passwd" placeholder="password" type="password" tabindex="1" control-id="ControlID-5"><div class="g-recaptcha" data-sitekey="6LeTnxkTAAAAAN9QEuDZRpn90WwKk_R1TRW_g-JC"></div><div class="status"></div><div id="remember-me"><input type="checkbox" name="rem" id="rem-login-main" tabindex="1" control-id="ControlID-6"><label for="rem-login-main">remember me</label><a class="recover-password" href="/password">reset password</a></div><div class="submit"><span class="throbber"></span><button class="btn" type="submit" tabindex="1" control-id="ControlID-7">login</button></div><div class="clear"></div></form></div><div class="spacer"><div class="sidebox submit submit-link"><div class="morelink"><a href="https://old.reddit.com/submit" data-event-action="submit" data-type="subreddit" data-event-detail="link" class="login-required access-required" target="_top">Submit a new link</a><div class="nub"></div></div></div></div><div class="spacer"><div class="sidebox submit submit-text"><div class="morelink"><a href="https://old.reddit.com/submit?selftext=true" data-event-action="submit" data-type="subreddit" data-event-detail="self" class="login-required access-required" target="_top">Submit a new text post</a><div class="nub"></div></div></div></div><div class="spacer"><a href="/premium" alt="get premium" class="premium-banner-outer"><form action="/premium" class="premium-banner"><div class="premium-banner__logo"></div><div class="premium-banner__title">Get an ad-free experience with special benefits, and directly support Reddit.</div><button class="premium-banner__button" control-id="ControlID-8">get reddit premium</button></form></a></div></div>
 -->
+        
+        
+<div class="container flex" style="margin-top:10px;text-align:left;">
+
+<div class="sidebar">
+<a href="beta.html">sign up for beta</a>   
+<br> <a class="twitter-timeline" href="https://twitter.com/manublj/timelines/1409797648077316099?ref_src=twsrc%5Etfw">tweets as validation p1 - Curated tweets by manublj</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
+<div class="single-post">	
 
 
-</td>
-<td class="default">
 
-    ---------------------------------------------
-    <!-- naming/ labelling/ tagging/ foldering = indexing -->
-    ---------------------------------------------
-    <a href\="https://news.ycombinator.com/item?id=16671957"\>\- comments from Hacker News</a\>
-    <br>workona on March 26, 2018 [–]    
-    We think it’s important to have a name to use as a handle to reference later or your workspaces quickly turn into your tab graveyard. The last thing we want is for people to say “I have no idea what any of this is.”</p>
-    <p> If you don’t want to give it a name, that’s fine, just don’t close the window. When you’re ready to close it, take a moment to give it a name you can remember it by, then shut it.
-    </p>
-    <br>spython on March 26, 2018 [–]
-    That is an interesting problem - creating, naming and remembering spaces. Can a space have a name, a real name before it exists and can be experienced? How does naming a space influence its content?
-    --------------------------------------------- 
-    <p>\\ Naming workspaces, may be flow-breaking meta-question. "How should I call what I'm doing right now" is not always an easy question to answer. 
-    </p>
-    <p>
+
+
+
+
+
+    <td class="default">
+
+        ---------------------------------------------
+        <!-- naming/ labelling/ tagging/ foldering = indexing -->
+        ---------------------------------------------
+        <a href\="https://news.ycombinator.com/item?id=16671957"\>\- comments from Hacker News</a\>
+        <br>workona on March 26, 2018 [–]    
+        <br>We think it’s important to have a name to use as a handle to reference later or your workspaces quickly turn into your tab graveyard. The last thing we want is for people to say “I have no idea what any of this is.”</p>
+        <p> If you don’t want to give it a name, that’s fine, just don’t close the window. When you’re ready to close it, take a moment to give it a name you can remember it by, then shut it.
+        </p>
+        <br>spython on March 26, 2018 [–]
+        <br>That is an interesting problem - creating, naming and remembering spaces. Can a space have a name, a real name before it exists and can be experienced? How does naming a space influence its content?
+        --------------------------------------------- 
+        <p>\\ Naming workspaces, may be flow-breaking meta-question. "How should I call what I'm doing right now" is not always an easy question to answer. 
+        </p>
+        <p>
+        Each time we click that bookmark button on a tweet, we'd have a thought how we could save it the best way, so that the next time I need to refer this great idea it'll be easy for me to resurface it.
+        </p>
+        <p>Bringing loads of content into words, will help segment content based on words and easily bring every tab (cognitive-space) under words.</p>
+        <br>/words are the most basic units.
+        <br>[[<a href="">a0</a>`]]
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I believe Peter does this because he realized how language can alter behavior in fundamental ways.<br><br>It&#39;s why Peter looks at businesses more like a good story than an organization trying to make a profit.<br><br>The most compelling story wins.</p>&mdash; Andrew Ruiz (@then_there_was) <a href="https://twitter.com/then_there_was/status/991192540220026880?ref_src=twsrc%5Etfw">May 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <br><blockquote class="trello-board-compact"><a href="{url to board}">Trello Board</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script>
+        <p>
+        //side-note: once you name it,
+        you can start thinking using words (imagine you're in acognitive-space/ mental-session) and trying linking/associating like in Obsidian's graph-view, but then every nodeis a variable (a word as variable name), with strings(sentences& paragraphs inside) inside it.
+        </p>
+        <br>
+        refer -[[video -game -- wordprocessor]]
+        
+        <br>	users engaging is a signal weights to it based on various parameters for -
+        <br>	(1) For quickly deciding what to read and what to skip.
+        <br>	helps the algorithm which are more of a priority and which ones you could to miss out
+        <br>	(naturally they're giving signals, we just have to interpret them properly)
+        
+        <br>	In this Lists ([[<a href="benevan.html">Lists are the new SEARCH</a>]]), it's not signal v. noise.
+        <br>	Almost always every article might be equally interesting and you'll be having a hard time saying no to it.
+        <br>    since by default everything that comes inside the list is chosen by you, 
+        <br>    by default everything that comes in is considered a signal, and it's our job to figure which ones might be a great read.
+        
+        saving/bookmarking[threading/ foldering/ tagging] = indexing 
+        sending, sharing to wall, posting as story = how good it is, just like how we calculate which ones are viral based on no. of RTs, we can do the same for links as well.
+        based on no. of saves, [resurfaces], repurposes, enhancers(like), no. of conversations it started (comments section da basically) 
+        we could say all these weights are added and called domain-authority, which is actually a number to tell how good the domain is.
+        assuming network effects kick in.
+        
+        adding weights = domain-authority for feed  
+            
+            ranking
+        ranking pages based on domain-authority,adhagapattadhu the metric we use to measure how much a page is relevant to a keyword, is {int context, relevancy-meter ; } 
+        )
+        
+        <br>	(domain-authority) - leaderboards la pottu meratirlaam,
+        
+        <br>	--2ndOC--------------resurfacing based on domain authority of links
+        <br>	which is basically us measuring tabs/links based on -
+        <br>	no. of times it's been saved,
+        <br>	no. of times it's been sent to someone                  
+        
+            
+        <br>	In the customer journey even before you save content(cognitive spaces),
+        <br>	you might have done one or more of the below -
+        <br>	liked it,
+        <br>	sent it to your friends,
+        <br>	post as story
+        <br>	maybe share it to add it to your wall.
+        <br>	these are signals as well, with varying weights.
+        
+            page is relevant to that keyword based on context matching.
+        can we resurface tabs(mental-sessions/  cognitive spaces/ thought-trains)
+        
+        2 attribution for matching Ads.
+        
+        
+        social-aspect
+        openDM
+        t10
+        clout for the nerds
+        leaderboards based on domain authority
+        
+                        
+        <br>	
+        <br>    I’m also trying to learn about the creator economy, NFTs and the taxes &amp; subsidies in it.
+        <p>    
+        When we look at trends in consumption of online content and the "rules" holding us back, we can sum them up into one major bottleneck: We are still broadcasting journalism, while new digital content distribution platform players are offering deeply personal experiences.
+        </p>
+        <p>
+        Publishers are left with a simple choice: Either lead the charge to redefine journalism and their products, or become mere content providers for external platforms, making them the de facto publishers of our time. The next leap will be going from broadcasting journalism(one-size-fits-all) to 1:1 journalism. - tinius trust. 💯
+        </p>
+        <br>	[concerned-citizen -publishing biz - the vantage - context is the product]
+        <br>	
+        
+    <!-- extended-->
+    
+    
+    
+    <br>		{
+        <br>		why did you bookmark it in the first place ? why leave it open ? why still have that storage sucking photos app, why try to frame moments in time ? [Nir Eyal](https://www.notion.so/Nir-Eyal-870d6b5effc2438a8de86c451c989fd6)
+        <br>		what is the use of saving it
+        <br>		resurfacing = reduces search area or prioritizes where to search first search
+        <br>		}
+        <br>	
+        m2 contextual
+        <br>	we keep forgetting with time. 
+        <br>	open tabs being cognitive spaces - which I think act in similar ways to physical spaces in the real world.
+        <br>	For example, I will sometimes open a new tab and forget what I came to search for - just like how people will sometimes walk from one room to another and forget what they were trying to do / find and have to (mentally or otherwise) retrace their steps.
+        <br>	[indexing conversations]
+        <br>	The same applies to conversations, remember those instances, you keep speaking of something enthusiastically, but then somewhere on the way you forget what you were telling in the first place.
+        <br>	You don't get me ? ok, think of the no. of times, you've wondered how did I end up thinking this, and you'll start thinking backwards, reverse engineering how you landed there, by resurfacing(replaying) whatever cues came before
+        <br>	At first, triggered by some cue, I land in a thought and then it becomes a train of thought, and then trains of thoughts and then what, it becomes really hard to keep track of it all.
+        <br>	Browsing also happens similarly, Do you have any clue how you ended up here ? [refer /surfing/]
+            
+        <br>	Remembering why you opened that tab or why you entered that room, is like trying to remember the thought-trains that led you there.
+        <br>	It's similar to bringing certain thought-trains/ cognitivespaces/ tabs back from the dead - [resurfacing](https://www.notion.so/resurfacing-e179f7e1d3e14520b6eaa0511aecdfab).
+        <br>	resurfacing (excerpts/ highlights of text you read), through readwise is literally but unconsciously and actively as well, processing stuff.
+        <br>	- [active recall] = resurfacing, remembering why you opened {thought-trains}
+        <br>	- spaced repetition, incremental reading
+        <br>	remember the times you were reading a tweet, but you clicked on some notification or the feed reloaded, and you lost that tweet forever. 
+        closing apps in app-tray is actively deleting context
+        as you keep opening apps, the app tray gets filled and current systems aren't helping me with this much multi-tasking. It's so overwhelming.
+        Keyboard shortcuts being contextual itself is validation that people keep swithcing a lot of apps 
+        and that shortcuts have to be common across the device, for shortcuts to be adopted.
+        
+        each tab we opened is just to hint of what they're actually looking for.
+        [[1]] it cannot be open forever
+        tabs are ephemeral
+        (1) optimal save limit
+    
+        <br> but with context we can find it easily when needed.
+        -why we need context ?
+        <p>     I save a set of bookmarks on a topic over a period of time, but it isn't easy to get access to all of those bookmarks again. Searching doesn't quite accomplish the goal because I might have been looking into a similar topic months ago, but a search will return results from both "mental sessions" together and I have to separate them myself.</p>	
+        <p> mental-sessions are our journeys through cognitive spaces which we keep forgetting with                 time, where we keep accumulating thoughts {search, overlap threads, 
+        find closest matching threads and add = "cognitive spaces", ""}</p>
+        <p>	 What I want is to maintain a list of current references, preferably with some spatial context (tree-mode browsing is great for this) to what the relationship is between pages in my browser session. I do not need is for every last single page to be open at the same time, sucking down memory, CPU cycles, and worse: playing videos and/or making noise. This is an excerpt from <a href="https://old.reddit.com/r/dredmorbius/comments/256lxu/tabbed_browsing_a_lousy_bandaid_over_poor_browser/">Tabbed browsing: a lousy band-aid over poor browser document and state management</a></p>
+        <br>  example use-case: searching within past mental-sessions/ threads, to find tabs related to the tab you're looking for.
+        
+    
+    
+    <br> ----------------------------------- linkfest -----------------------------------------
+    
+    <br>		lists are the new search
+    
+    
+        
+    ------------------------------------------------------------------------------------------------------------------------------    
+    bookmarks are basically the internet I set aside for later consumption and power-users foldering bookmarks seems like users are creating an index for their bookmarks. 
+    
+    prioritizing the home-feed
+    There's too much content content and it's hard to know which ones are worthwhile before consuming it.
+    
+    indexing  properly from the beginning might actually control the inflow of information in the system [enter Google as a search engine & Browser (The Internet), Twitter, Instagram, conversations in Clubhouse]  
+    
+    establish intent clearly before getting it inside the information system (i.e, Pocket)
+    <br>	As long as I have foldered/tagged properly, I can easily find it when needed and maybe re-read it and try to, retain most of what I read.	
+    
     Each time we click that bookmark button on a tweet, we'd have a thought how we could save it the best way, so that the next time I need to refer this great idea it'll be easy for me to resurface it.
-    </p>
-    <p>Bringing loads of content into words, will help segment content based on words and easily bring every tab (cognitive-space) under words.</p>
-    <br>/words are the most basic units.
-    <br>[[<a href="">a0</a>`]]
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I believe Peter does this because he realized how language can alter behavior in fundamental ways.<br><br>It&#39;s why Peter looks at businesses more like a good story than an organization trying to make a profit.<br><br>The most compelling story wins.</p>&mdash; Andrew Ruiz (@then_there_was) <a href="https://twitter.com/then_there_was/status/991192540220026880?ref_src=twsrc%5Etfw">May 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <br><blockquote class="trello-board-compact"><a href="{url to board}">Trello Board</a></blockquote><script src="https://p.trellocdn.com/embed.min.js"></script>
-    <p>
-    //side-note: once you name it,
-    you can start thinking using words (imagine you're in acognitive-space/ mental-session) and trying linking/associating like in Obsidian's graph-view, but then every nodeis a variable (a word as variable name), with strings(sentences& paragraphs inside) inside it.
-    </p>
-    <br>
-    refer -[[video-game -- wordprocessor]]
+    \\ Naming workspaces, may be flow-breaking meta-question. "How should I call what I'm doing right now" is not always an easy question to answer.
+    --------------------------------------------- \- comments from Hacker News
+    workona on March 26, 2018 [–] We think it’s important to have a name to use as a handle to reference later or your workspaces quickly turn into your tab graveyard. The last thing we want is for people to say “I have no idea what any of this is.”
+    If you don’t want to give it a name, that’s fine, just don’t close the window. When you’re ready to close it, take a moment to give it a name you can remember it by, then shut it.
+    spython on March 26, 2018 [–] That is an interesting problem - creating, naming and remembering spaces. Can a space have a name, a real name before it exists and can be experienced? How does naming a space influence its content?
+    ---------------------------------------------------------------------------------------------------------------
+    Even if I don't get back to it, naming is indexing, hence archived but searchable (resurfacing). you might not understand it now, but you sure might. again, this was actually written for me.
     
-    <br>	users engaging is a signal weights to it based on various parameters for -
-    <br>	(1) For quickly deciding what to read and what to skip.
-    <br>	helps the algorithm which are more of a priority and which ones you could to miss out
-    <br>	(naturally they're giving signals, we just have to interpret them properly)
+    this could be the 3 buckets    
+    <br>	we have a various reasons why we want to those links (urls)	    
+    3 buckets - unread, read, just-in-case [Everything goes to pocket forever and later when you're working on a specific topic (or) want to learn something, do a keyword search and it'll resurface the relevant ones]
+            (1) seems interesting (just-in-case)(just open it in background and leave it to rot)
+    <br>	(2) text that makes you say "nobody put it this way" (indexing) - for future reference \[read or started reading\] 
+    <br>	(3)	THINGS YOU WANT TO GET BACK TO, like for sure. We basically hoard articles and It is like a dump to most of us. //more tweets as validation.
     
-    <br>	In this Lists ([[<a href="benevan.html">Lists are the new SEARCH</a>]]), it's not signal v. noise.
-    <br>	Almost always every article might be equally interesting and you'll be having a hard time saying no to it.
-    <br>    since by default everything that comes inside the list is chosen by you, 
-    <br>    by default everything that comes in is considered a signal, and it's our job to figure which ones might be a great read.
     
-    saving/bookmarking[threading/ foldering/ tagging] = indexing 
-    sending, sharing to wall, posting as story = how good it is, just like how we calculate which ones are viral based on no. of RTs, we can do the same for links as well.
-    based on no. of saves, [resurfaces], repurposes, enhancers(like), no. of conversations it started (comments section da basically) 
-    we could say all these weights are added and called domain-authority, which is actually a number to tell how good the domain is.
-    assuming network effects kick in.
-    
-    adding weights = domain-authority for feed  
-        
-        ranking
-    ranking pages based on domain-authority,adhagapattadhu the metric we use to measure how much a page is relevant to a keyword, is {int context, relevancy-meter ; } 
-    )
-    
-    <br>	(domain-authority) - leaderboards la pottu meratirlaam,
-    
-    <br>	--2ndOC--------------resurfacing based on domain authority of links
-    <br>	which is basically us measuring tabs/links based on -
-    <br>	no. of times it's been saved,
-    <br>	no. of times it's been sent to someone                  
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    [1]--------------------------
     
         
-    <br>	In the customer journey even before you save content(cognitive spaces),
-    <br>	you might have done one or more of the below -
-    <br>	liked it,
-    <br>	sent it to your friends,
-    <br>	post as story
-    <br>	maybe share it to add it to your wall.
-    <br>	these are signals as well, with varying weights.
-    
-        page is relevant to that keyword based on context matching.
-    can we resurface tabs(mental-sessions/  cognitive spaces/ thought-trains)
-    
-    2 attribution for matching Ads.
+    resurfacing part --------------------------------------------------------------------------------------------
     
     
-    social-aspect
-    openDM
-    t10
-    clout for the nerds
-    leaderboards based on domain authority
+    With some of us having hundreds of tabs open all the time across a number of windows, browser is critical and context-switching becomes hard as OS isn't designed for multi-tasking all the time. 
+    Shortcuts being contextual is proof that windows is so outdated with user-behaviour.Pirate flag
+    The problems surrounding our digital spaces (and these cognitive spaces that we create) are far bigger than just browsers themselves, ideally we need to rethink the metaphors of interfaces from the ground up.
+    end of c0
     
-                    
-    <br>	
-    <br>    I’m also trying to learn about the creator economy, NFTs and the taxes &amp; subsidies in it.
-    <p>    
-    When we look at trends in consumption of online content and the "rules" holding us back, we can sum them up into one major bottleneck: We are still broadcasting journalism, while new digital content distribution platform players are offering deeply personal experiences.
-    </p>
-    <p>
-    Publishers are left with a simple choice: Either lead the charge to redefine journalism and their products, or become mere content providers for external platforms, making them the de facto publishers of our time. The next leap will be going from broadcasting journalism(one-size-fits-all) to 1:1 journalism. - tinius trust. 💯
-    </p>
-    <br>	[concerned-citizen -publishing biz - the vantage - context is the product]
-    <br>	
+    Every piece of incoming link is 
     
-<!-- extended-->
-
-<br>we need to acknowledge the fact that, we're the ones in-charge of regualting of our feed. 
-users actually control who they follow, who follows them (and how they influence the people who follow them), things they wouldn't want to miss out (FOMO),.. ultimately the quality of the feed.
-<br>feed cleansing - unfollowing regularly leads to a quality feed and normalizing that makes people more responsible and accountable.
-<br>It's just that social-platforms don't yet realize that using these controls itself will help reduce this overwhelming feeling that we're drowing in the content overload.
-<p>	The Internet basically democratized a lot of things. It reduced the information assymmetry, but we're already creating content at an unimaginable rate.</p>
-<br> the Internet is fukked. (signal v. noise)
-<br>/<a href="/social-capital.html">curate</a>/
-<br> curation is the problem of the century
-<br> [2] curation (recommendations) 	
-<br> explore feed - a ton of unrelated articles. this feed is made up of everything that I'm interested in.
-<br> // [curation = creation][synthesis &amp; compilations][produsable][t10]
-<br> [ ]---------------------------------------------------------------------------------------------------------------------
-<br> platforms || aggregators of attention (content distributors) - aggregation theory (it's kind of like a 20 mark question, but once you understand it'll blow your mind)
-<br> diff. btw platforms and aggregators ? 
-<br> I say we need to introduce scarcity (Eugene Wei +100). (1) A case for subscription only supply of scarcity. (2) At the same time, Ads are good, as satire cannot be paid for. confusing Ikr. But I get it, so moving on.
-
-<br> &lt;&lt; bonus-points &gt;&gt;
-<br> 2nd order consequences of me trying to solve for prioritizing the [home-feed]    
-<br> [1] search - what clarity is, is different to different people, but for me it is being able to retrieve stuff (cognitive spaces/ mental-sessions, or it could be articles/ tweets) instantly on command.
-<br> better SERPs (basic logic that my friend who knows about it can guide me better than GOOG)
-<br> social-networks can actually bring consensus (being on the same page - alignment)
-<br> In a lot of ways, we've digitized trust and we want to hold them accountable to a certain extent.
-<br> aggregators can be publishers 
-/<a href="publishers.html">consensus</a>/
-<br> <a href="https://www.ben-evans.com/benedictevans/2016/1/31/lists-are-the-new-search">lists are the new search - benedict evans</a>(leaderboards). We've invested in lists in twitter, likewise this behvaiour could be applied across platforms to prioritize your content queue.
-
-
-<br>		{
-    <br>		why did you bookmark it in the first place ? why leave it open ? why still have that storage sucking photos app, why try to frame moments in time ? [Nir Eyal](https://www.notion.so/Nir-Eyal-870d6b5effc2438a8de86c451c989fd6)
-    <br>		what is the use of saving it
-    <br>		resurfacing = reduces search area or prioritizes where to search first search
-    <br>		}
-    <br>	
-    m2 contextual
-    <br>	we keep forgetting with time. 
-    <br>	open tabs being cognitive spaces - which I think act in similar ways to physical spaces in the real world.
-    <br>	For example, I will sometimes open a new tab and forget what I came to search for - just like how people will sometimes walk from one room to another and forget what they were trying to do / find and have to (mentally or otherwise) retrace their steps.
-    <br>	[indexing conversations]
-    <br>	The same applies to conversations, remember those instances, you keep speaking of something enthusiastically, but then somewhere on the way you forget what you were telling in the first place.
-    <br>	You don't get me ? ok, think of the no. of times, you've wondered how did I end up thinking this, and you'll start thinking backwards, reverse engineering how you landed there, by resurfacing(replaying) whatever cues came before
-    <br>	At first, triggered by some cue, I land in a thought and then it becomes a train of thought, and then trains of thoughts and then what, it becomes really hard to keep track of it all.
-    <br>	Browsing also happens similarly, Do you have any clue how you ended up here ? [refer /surfing/]
+    At the time of bookmarking itself we can ask him for inputs ? we might get to know how important it is to him.
+    Trying to understand the query entered and finding the relavant content for those keywords. But there cannot be consensus on 1st 10 links for a certain keyword. Consensus is multi-player. [[<a href="m2 contextual.html">consensus</a>]]
+    
+    
         
-    <br>	Remembering why you opened that tab or why you entered that room, is like trying to remember the thought-trains that led you there.
-    <br>	It's similar to bringing certain thought-trains/ cognitivespaces/ tabs back from the dead - [resurfacing](https://www.notion.so/resurfacing-e179f7e1d3e14520b6eaa0511aecdfab).
-    <br>	resurfacing (excerpts/ highlights of text you read), through readwise is literally but unconsciously and actively as well, processing stuff.
-    <br>	- [active recall] = resurfacing, remembering why you opened {thought-trains}
-    <br>	- spaced repetition, incremental reading
-    <br>	remember the times you were reading a tweet, but you clicked on some notification or the feed reloaded, and you lost that tweet forever. 
-    closing apps in app-tray is actively deleting context
-    as you keep opening apps, the app tray gets filled and current systems aren't helping me with this much multi-tasking. It's so overwhelming.
-    Keyboard shortcuts being contextual itself is validation that people keep swithcing a lot of apps 
-    and that shortcuts have to be common across the device, for shortcuts to be adopted.
     
-    each tab we opened is just to hint of what they're actually looking for.
-    [[1]] it cannot be open forever
-    tabs are ephemeral
-    (1) optimal save limit
-
-    <br> but with context we can find it easily when needed.
-    -why we need context ?
-    <p>     I save a set of bookmarks on a topic over a period of time, but it isn't easy to get access to all of those bookmarks again. Searching doesn't quite accomplish the goal because I might have been looking into a similar topic months ago, but a search will return results from both "mental sessions" together and I have to separate them myself.</p>	
-    <p> mental-sessions are our journeys through cognitive spaces which we keep forgetting with                 time, where we keep accumulating thoughts {search, overlap threads, 
-    find closest matching threads and add = "cognitive spaces", ""}</p>
-    <p>	 What I want is to maintain a list of current references, preferably with some spatial context (tree-mode browsing is great for this) to what the relationship is between pages in my browser session. I do not need is for every last single page to be open at the same time, sucking down memory, CPU cycles, and worse: playing videos and/or making noise. This is an excerpt from <a href="https://old.reddit.com/r/dredmorbius/comments/256lxu/tabbed_browsing_a_lousy_bandaid_over_poor_browser/">Tabbed browsing: a lousy band-aid over poor browser document and state management</a></p>
-    <br>  example use-case: searching within past mental-sessions/ threads, to find tabs related to the tab you're looking for.
+    ---------------------------------------------------------------------------------------------------------------------------------
     
-
-<< bonus-points >>
-2nd order consequences of me trying to solve for prioritizing the [home-feed]
-we need to acknowledge the fact that, we're the ones in-charge of regualting of our feed. users actually control who they follow, who follows them (and how they influence the people who follow them), things they wouldn't want to miss out (FOMO),.. ultimately the quality of the feed.
-feed cleansing - unfollowing regularly leads to a quality feed and normalizing that makes people more responsible and accountable.
-It's just that social-platforms don't yet realize that using these controls itself will help reduce this overwhelming feeling that we're drowing in the content overload.
-The Internet basically democratized a lot of things. It reduced the information asymmetry, but we're already creating content at an unimaginable rate.
-the Internet is fukked. (signal v. noise)
-/<a href="social-capital.html"></a>curate/
-<br>		curation is the problem of the century ------------------------------------------------------------------------------------------------------------------------------------------------
-
-It seems like everyone are trying to control the algorithm to a certain extent.
-for social-capital & creator monetisation
-<br>
-<br>	clout and social-capital (status as a service)
-<br>    The Internt will accept your weirdness. Consumers are navigating away from mainstream markets and that is why they say, profitability will improve for the long tail / niches. 
-<br>	scaling intimacy
-<br>	friction to publish (because we all are playing different games)
-<br>    into the meta-verse (clubhouse x cities ft. @shl)
-
-[2] curation (recommendations)
-explore feed - a ton of unrelated articles. this feed is made up of everything that I'm interested in.
-// [curation = creation][synthesis & compilations][produsable][t10]
-[ ]---------------------------------------------------------------------------------------------------------------------
-platforms || aggregators of attention (content distributors) - aggregation theory (it's kind of like a 20 mark question, but once you understand it'll blow your mind)
-diff. btw platforms and aggregators ?
-
-[] search - what clarity is, is different to different people, but for me it is being able to retrieve stuff (cognitive spaces/ mental-sessions, or it could be articles/ tweets) instantly on command.
-better SERPs (basic logic that my friend who knows about it can guide me better than GOOG)
-social-networks can actually bring consensus (being on the same page - alignment)
-In a lot of ways, we've digitized trust and we want to hold them accountable to a certain extent.
-aggregators can be publishers
-/<a href="/serps.html">consensus</a>/
-<br><a href"https://www.ben-evans.com/benedictevans/2016/1/31/lists-are-the-new-search">lists are the new search</a>------------------------------------------------------------------------------- 
-
-<br> ----------------------------------- linkfest -----------------------------------------
-
-<br>		lists are the new search
-
-
+    -----------------------------
     
-------------------------------------------------------------------------------------------------------------------------------    
-bookmarks are basically the internet I set aside for later consumption and power-users foldering bookmarks seems like users are creating an index for their bookmarks. 
-
-prioritizing the home-feed
-There's too much content content and it's hard to know which ones are worthwhile before consuming it.
-
-indexing  properly from the beginning might actually control the inflow of information in the system [enter Google as a search engine & Browser (The Internet), Twitter, Instagram, conversations in Clubhouse]  
-
-establish intent clearly before getting it inside the information system (i.e, Pocket)
-<br>	As long as I have foldered/tagged properly, I can easily find it when needed and maybe re-read it and try to, retain most of what I read.	
-
-Each time we click that bookmark button on a tweet, we'd have a thought how we could save it the best way, so that the next time I need to refer this great idea it'll be easy for me to resurface it.
-\\ Naming workspaces, may be flow-breaking meta-question. "How should I call what I'm doing right now" is not always an easy question to answer.
---------------------------------------------- \- comments from Hacker News
-workona on March 26, 2018 [–] We think it’s important to have a name to use as a handle to reference later or your workspaces quickly turn into your tab graveyard. The last thing we want is for people to say “I have no idea what any of this is.”
-If you don’t want to give it a name, that’s fine, just don’t close the window. When you’re ready to close it, take a moment to give it a name you can remember it by, then shut it.
-spython on March 26, 2018 [–] That is an interesting problem - creating, naming and remembering spaces. Can a space have a name, a real name before it exists and can be experienced? How does naming a space influence its content?
----------------------------------------------------------------------------------------------------------------
-Even if I don't get back to it, naming is indexing, hence archived but searchable (resurfacing). you might not understand it now, but you sure might. again, this was actually written for me.
-
-this could be the 3 buckets    
-<br>	we have a various reasons why we want to those links (urls)	    
-3 buckets - unread, read, just-in-case [Everything goes to pocket forever and later when you're working on a specific topic (or) want to learn something, do a keyword search and it'll resurface the relevant ones]
-        (1) seems interesting (just-in-case)(just open it in background and leave it to rot)
-<br>	(2) text that makes you say "nobody put it this way" (indexing) - for future reference \[read or started reading\] 
-<br>	(3)	THINGS YOU WANT TO GET BACK TO, like for sure. We basically hoard articles and It is like a dump to most of us. //more tweets as validation.
-
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-[1]--------------------------
-
+    spaced-repetition
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">New routine to learn a new space inspired by <a href="https://twitter.com/michael_nielsen?ref_src=twsrc%5Etfw">@michael_nielsen</a>. Build a small set of questions/answers or just the key notes on a space.<br><br> And then have a system (I use scheduled emails) to expose them to you at varying intervals.</p>&mdash; Sriram Krishnan (@sriramk) <a href="https://twitter.com/sriramk/status/1108425333764583424?ref_src=twsrc%5Etfw">March 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    If only we had spaced repetition apps for reminding ourselves certain questions, things, perspectives, world-views .etc
+        UIC, UGC		
+    \[copy = content(tweets, articles) & conversations(transcripts & online comments[UGC](https://www.notion.so/UGC-3edde0980f6d40f7b7eef1f6e257dd98))\] 
+    what I'm saying is, create scarcity. 
+    - endof {caching, tabocalypse & browser}--------------------------------------------------------------------------------------------------------------------------------------------
+        for {linkto=indexing - listing and de-listing}
+    - //// threading and how we thread as we surf -- add=buttons[browsing compared with conversations]
+    ----1-for resurfacing mental-sessions and to recommend based on tabs in those mental sessions.
+    []  An ability to save the state of research,share it with others and come back to it later.
+        searching within (mental-sessions/threads) to find/recommend based on tabs in those mental sessions/ threads.
+    3	
     
-resurfacing part --------------------------------------------------------------------------------------------
+        
 
-
-With some of us having hundreds of tabs open all the time across a number of windows, browser is critical and context-switching becomes hard as OS isn't designed for multi-tasking all the time. 
-Shortcuts being contextual is proof that windows is so outdated with user-behaviour.Pirate flag
-The problems surrounding our digital spaces (and these cognitive spaces that we create) are far bigger than just browsers themselves, ideally we need to rethink the metaphors of interfaces from the ground up.
-end of c0
-
-Every piece of incoming link is 
-
-At the time of bookmarking itself we can ask him for inputs ? we might get to know how important it is to him.
-Trying to understand the query entered and finding the relavant content for those keywords. But there cannot be consensus on 1st 10 links for a certain keyword. Consensus is multi-player. [[<a href="m2 contextual.html">consensus</a>]]
-
-
+    caching content happens as we browse the Internet, it also includes us scrolling through aggregators like Instagram, Twitter, Facebook.  
+    As end-consumers we consume a lot of diverse content across a number of platforms
+    To a significant percent of users, instagram is the internet they know, or twitter is the internet they know, reddit and google is their internet, it depends from person to person. 
+    Hence indexing just webpages will not cut it, all file formats of content across platforms all are part of the Internet. 
+    articles are just one of the [file-formats](https://www.notion.so/file-formats-8e6aa86afe4349ec91a40af035a52418)
+    The user not being able to keep up with his saving activity, frustrated due to FOMO on the most recent tweets of all those you follow and increasing load of articles which you never seem to complete, is totally unnecessary.
     
+    what would happen if we tried to index it all, all the content on the Internet under topics.
+    because users are basically submitting links
+    \[1\] saving is validation
+    I understood users themselves are indexing by saving it somewhere and they feel guilty for not going back to it. FOMO.
+    
+    every piece of content has a weight attached to it by the user.  
+    all content posted is evaluated by us wherein we assign it values like like, share, subscribe, save, comment - based on how much we resonate with it. 
+    weights are an indicator  signals like - author = must-read-author / must-read-blog, and type of content = comments/ notes/ annotations of must-read-author on tweets (or) articles, notes on tweets.  [[UGC]]
+    
+    Once you add signals or index it properly, it all comes into perspective and it’s gonna be lit innit. avlodhaan da.
+    some people go on to repost it, retweet it, post as story/ status, and this behaviour is seen in people who want to be identified as something or to make people aware or clearly for dopamine.
+    
+    If the signal part is shown in highly noisy environments, it helps the user to better decide, if it deserves his/her attention, or even they'd be ready to give more attention to those which are pure signal.  quickly deciding what to read and what to skip.
+    each UX component conveys some information to the user about either navigation  
+    or  
+    when it's noisy, to control noise or for noise-control, we can brand certain content as Pure SIGNAL, some as noise.  
+    
+    adding signals to channels to measure authenticity and domain authority
+    ex: article(author), tweet(techtwitter), platform(memes(friends))
+    here, 
+    
+    
+    [[<a href="wordprocessor.html">wordprocessor</a>]]
+    
+     
+    <br> Naaliku maan kombu fight iruku, ellarum marakaama vandhurunga.
 
----------------------------------------------------------------------------------------------------------------------------------
 
------------------------------
 
-spaced-repetition
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New routine to learn a new space inspired by <a href="https://twitter.com/michael_nielsen?ref_src=twsrc%5Etfw">@michael_nielsen</a>. Build a small set of questions/answers or just the key notes on a space.<br><br> And then have a system (I use scheduled emails) to expose them to you at varying intervals.</p>&mdash; Sriram Krishnan (@sriramk) <a href="https://twitter.com/sriramk/status/1108425333764583424?ref_src=twsrc%5Etfw">March 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-If only we had spaced repetition apps for reminding ourselves certain questions, things, perspectives, world-views .etc
-    UIC, UGC		
-\[copy = content(tweets, articles) & conversations(transcripts & online comments[UGC](https://www.notion.so/UGC-3edde0980f6d40f7b7eef1f6e257dd98))\] 
-what I'm saying is, create scarcity. 
-- endof {caching, tabocalypse & browser}--------------------------------------------------------------------------------------------------------------------------------------------
-    for {linkto=indexing - listing and de-listing}
-- //// threading and how we thread as we surf -- add=buttons[browsing compared with conversations]
-----1-for resurfacing mental-sessions and to recommend based on tabs in those mental sessions.
-[]  An ability to save the state of research,share it with others and come back to it later.
-    searching within (mental-sessions/threads) to find/recommend based on tabs in those mental sessions/ threads.
-3	
-
+    speaking of all the content on the Internet, 
+    much of what is created by the masses belong to platforms which google cannot crawl through and resurface just-in-time on command. 
+    I have no idea, why GOOG is not able to resurface tweets ?, but I'm pretty sure a lot of people are looking for a way to search through their twitter bookmarks, which twitter unfortunately doesn't allow.
+    \\toggle list\
+    
+    I'm not saying google sucks, they grew so big, they grew blind, they're not able to see that 
+    All I'm saying is that, 
+    
+    I want to 
+    
+    we could actively expand her cognitive space around words, increasing her knowledge-base.
+    
+    
+    till,...
+        we consume a lot of content.
+    
+        3 enter, spaced repetition.
+        4 note-taking tools integrating with spaced repetition to import excerpts and highlights. example - readwise to roam-research.inc
+           
+           
+        things power-users said on the Internet --
+            
+        Can make those with lots of tabs trying to organize them, do it faster by asking them to bookmark all tabs —> import to us —> sort it out here (new thread, add to old thread, delete tab) I closed a few tabs today. I think I’m finally making progress- I’m only at 104 open as of today.
+            
+            [[t1 tabocalypse & browser]]
+    
+    
+            
+    
+    
+    
+    
+    It’s accessibility to celebrities in the Industry makes it the perfect place to make a marketplace 
+    - supply of opportunities and demand for quality candidates in the marketplaces
+    
+    
+    
+    resurfacing the internet (google's incompetence)
+    
+    fear not for you have not read it and don't feel guilty you didn't remember anything from that, 
+    connecting itself is value creation. maybe that isn't enough, 
+    users
+    saving is validation
     
     
 
-caching content happens as we browse the Internet, it also includes us scrolling through aggregators like Instagram, Twitter, Facebook.  
-As end-consumers we consume a lot of diverse content across a number of platforms
-To a significant percent of users, instagram is the internet they know, or twitter is the internet they know, reddit and google is their internet, it depends from person to person. 
-Hence indexing just webpages will not cut it, all file formats of content across platforms all are part of the Internet. 
-articles are just one of the [file-formats](https://www.notion.so/file-formats-8e6aa86afe4349ec91a40af035a52418)
-The user not being able to keep up with his saving activity, frustrated due to FOMO on the most recent tweets of all those you follow and increasing load of articles which you never seem to complete, is totally unnecessary.
-
-what would happen if we tried to index it all, all the content on the Internet under topics.
-because users are basically submitting links
-\[1\] saving is validation
-I understood users themselves are indexing by saving it somewhere and they feel guilty for not going back to it. FOMO.
-
-every piece of content has a weight attached to it by the user.  
-all content posted is evaluated by us wherein we assign it values like like, share, subscribe, save, comment - based on how much we resonate with it. 
-weights are an indicator  signals like - author = must-read-author / must-read-blog, and type of content = comments/ notes/ annotations of must-read-author on tweets (or) articles, notes on tweets.  [[UGC]]
-
-Once you add signals or index it properly, it all comes into perspective and it’s gonna be lit innit. avlodhaan da.
-some people go on to repost it, retweet it, post as story/ status, and this behaviour is seen in people who want to be identified as something or to make people aware or clearly for dopamine.
-
-If the signal part is shown in highly noisy environments, it helps the user to better decide, if it deserves his/her attention, or even they'd be ready to give more attention to those which are pure signal.  quickly deciding what to read and what to skip.
-each UX component conveys some information to the user about either navigation  
-or  
-when it's noisy, to control noise or for noise-control, we can brand certain content as Pure SIGNAL, some as noise.  
-
-adding signals to channels to measure authenticity and domain authority
-ex: article(author), tweet(techtwitter), platform(memes(friends))
-here, 
 
 
-[[<a href="wordprocessor.html">wordprocessor</a>]]
 
-<br>		Tangible progress finally, after what seemed like a marathon.
-<br>		This is just an opportunity, an opportunity to persuade, a big one in that.
- 
-<br> Naaliku maan kombu fight iruku, ellarum marakaama vandhurunga.
-
-</div>    
+    
+    </div></div>
 </div>
 </div>
 
-
-<div id="content">
-<div id="content">
-
-<script type="text/javascript" async="" src="./index_files/ga.js"></script>
-<script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-2393307-1']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-</script>
-
-</div>
-</div>
-
-
-<span style="margin: 0px auto; border: 2px dotted rgb(0, 0, 0); position: absolute; z-index: 2147483647; visibility: hidden; left: 959px; width: 0px; top: 342px; height: 0px;"></span>
-
-<table>
-<tr>
-    <td>
-    </td>
-</tr>
-</table>
-
-<table width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-    <td bgcolor="#ff6600">
-
-    </td>
-</tr>
-</table>
-
-<table width="100%" cellspacing="0" cellpadding="1">
-<tbody>
-<tr>
-    <td bgcolor="#ff6600">
-
-    </td>
-</tr>
-</table>
-<!-- footer -->
-<tr>
-    <td>
-        <div>
+<div width="100%" cellspacing="0" cellpadding="1" style="background:#ff6600">
             <p class="bottombar">
-                <a>radical computer ideas | curation is the problem of the century</a>                               
+                <a>radical computer ideas | curation is the problem of the century</a>         
             </p>
-        </div>
-    </td>
-</tr>
-</tbody>
-</table>
+        </div>      
+
+        
 <a href="index.html"><img src="index_files/ascii-banner1.PNG"></a>
-<br>
-<!-- - 
-<pre>
-███╗   ███╗ █████╗ ███╗   ██╗██╗   ██╗██████╗ ██╗          ██╗
-████╗ ████║██╔══██╗████╗  ██║██║   ██║██╔══██╗██║          ██║
-██╔████╔██║███████║██╔██╗ ██║██║   ██║██████╔╝██║          ██║
-██║╚██╔╝██║██╔══██║██║╚██╗██║██║   ██║██╔══██╗██║     ██   ██║
-██║ ╚═╝ ██║██║  ██║██║ ╚████║╚██████╔╝██████╔╝███████╗╚█████╔╝
-╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝ ╚════╝ 
-</pre>
-- -->
+        
+        
+        
 </body>
 </html>
+ 

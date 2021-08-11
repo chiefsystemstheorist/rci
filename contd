@@ -1,20 +1,22 @@
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+<h4> >> this is why we need to be working on this >> </h4>
+<hr style="height:2px;border-width:0;color:black;background-color:black">
+
+
+
 
 --
-<br> discovery / curation apps and digital garden apps, in no particular order - 
-<br> { flipboard, feed, refind, matter app, nuzzel, deepstash, mymind, stash, sublist, are.na, odin }
-<br> 
-<br> Say, it grows into a single place for (or) go-to place for a lot of things.
-<br> Yes, if we succeed in gathering enough no. of users, 
-<br> We could grow from reading app into a discovery app as well. (actually experiment the shit outta them) 
-<br> But then again, it'll become yet another noisy feed. example - matter app
-<br> So, stick to being a reading queue and focus on 1/2 things alone.
 
 
 
 
 <br>
 --
+the comments section in each article, accepts comments anonymously or asks the user to login. 
+Publishers want users to login, to collect more data about them each time they visit the website.
+
 <br>we can exploit our human nature of commenting on posts
+
 <br> also, readers or consumers can be reading the article from anywhere, hence them commenting on articles could basically be done on any social-media platform (or) newsletter (or) anywhere else on the internet.
 <br> due to this all these comments get siloed by default.
 <br> what I propose is, if at all we succeed in gathering enough no. of users
@@ -23,22 +25,6 @@
 
 the very end
 --
-<br>
-<br>we can also divide them btw consumers and creators (of content)  
-<br> users can become creators, influencers, micro-famous and celebrities.
-<br> rather these are all places to get fame, internet famous.
-
-<br> /2/ we need to acknowledge the fact that, we're the ones in-charge of regualting of our feed. /curate/ 
-<br> we're actually living in echochambers, wherein we trust that certain users will post good content
-<br> acknowledging the fact that the user is the curator (people and publishers I follow) and that he could do better. 
-
-<br>and social-media platforms can actually bring consensus (being on the same page - alignment)  //(leaderboards)
-<br>In a lot of ways, we've digitized trust and we need to hold them accountable to a certain extent.
-<br>aggregators can be publishers
-<!--page2 platform & leaderboards-->
-<br>/<a href="/serps.html">consensus</a>/
-
-<br>Feeds and newsletters are people and publishers we subscribe to
 
 <br>
 <br>
@@ -50,13 +36,11 @@ the very end
 
 
 
-<br>when building a entertainment-based product, there are more substitutes 
 
 
  
 <br>Eugene Wei (11:32):
 <br>So every time I unlock my phone now I'm given a choice of anything. I can choose what my diet of entertainment is. That actually makes all these forms of entertainment actually absolutely competitive with each other. In economics, we have this concept of substitutes. A product can substitute for another product. But I think in entertainment, what you have is actually a lot of forms of entertainment, while they might not be perfect for each other, they're close enough. They're good enough, right?
-
 <br>Eugene Wei (12:18):
 <br>I think a lot of companies that formerly looked at their competitive set as being companies that were directly in their vertical are missing out on the fact that they now compete with companies in a variety of verticals. And what that means is or what I often tell companies now is let's say your product doesn't really have much of a social layer. And you might say, hey, nobody in our industry has a social layer. That's not what movies are about. Movies are a passive form of entertainment. 
 
@@ -74,12 +58,11 @@ the very end
 <br>scarcity on any axis is a form of power
 
 
-<br><iframe width="750" height="422" src="https://www.youtube.com/embed/eKTntSh4uSQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
 
-
+“If you would persuade, appeal to interest and not to reason.”
 
 
 
@@ -102,34 +85,6 @@ the very end
 
 
 
-<br>All I'm saying is, by helping them with reading and retaining more, we become their default reading app. 
-<br>And this is how I suppose, we could make it a game. (all 
-hail superhuman)
-
-
-<br>Eugene Wei (02:32):
-<br> I actually think that people in the gaming world have more of an intuitive understanding of how important it is, moment to moment, to track your user's emotional valence. And that's partially because game designers sort of... Games are a continuous interactive experiences. 
-<br>And if the user isn't feeling the right balance of challenged, plus motivated, plus rewarded in a game, they'll churn out. But I think that same principle can be applied to a lot of other products. How products take off a lot of it is in how they make you feel. If you watch any Apple keynote, going back to the Steve Jobs days, I think he is underrated for having this very intuitive understanding. That part of why people should buy Apple products or part of why they buy Apple products is that it makes them feel cool or it makes them feel hip, or it makes them feel creative. That applies to social networks just as much.
-<br>[[<a href ="https://www.eugenewei.com/blog/2019/2/19/status-as-a-service">status as a service - eugene wei</a>]]
-<br>[[<a href ="https://podcast.nfx.com/episodes/status-games-eugene-wei/transcript">transcripts of NFX Podcast - Status Games with Eugene Wei (Product Lead at Amazon, Hulu, Erly, Flipboard, Oculus) and James Currier</a>]]
-
-
-nir
-
-
-<br> leaderboards   
-
-<br>    stats for gamification is not simply taking your product and adding points, levels, trophies, and badges. Well, researchers distinguished intrinsic and extrinsic motivation. With intrinsic motivation, we do things because we find them inherently satisfying and interesting. With extrinsic motivation, we do things to achieve rewards. And that’s the problem with rewards – they massively undermine intrinsic motivation. This is also why gamification does not work. When gamification appears to work, it is because the underlying experience is already a game.
-
-<br>/3 What is the simplest behaviour in anticipation of reward ?
-<br> I'll give 2 answers, in terms of clout.
-<br>(1) the power-user is there for our prioritization first. He really wants to reach pocket zero (zero unread articles) and doesn't  give a damn about if he gets any clout out of the nerd he is. 
-<br>(2) average users now with leaderboards have this incentive to read, as them reading could be visualised into clout as in github's 365-day coding streak and shades based on certain proof of work.
-
-if 2(or any number of) good articles per day seems acheiveable, then we
-
-/4 investment phase
-<hr style="height:2px;border-width:0;color:black;background-color:black">
 
 <br>A recent article in the Harvard Business Review puts a name to this new neurological phenomenon: Attention Deficit Trait. Basically, the terms ADD and ADHD are falling out of use because effectively the entire population fits the diagnostic criteria. It’s not a condition anymore, it’s a trait — the inherent and unavoidable experience of modern life characterized by “distractibility, inner frenzy, and impatience.”
 
@@ -140,8 +95,109 @@ if 2(or any number of) good articles per day seems acheiveable, then we
 
 
 
-<br> be able to discover great content here, 
-<br> a place to learn anything, since search might be better here.
+
+
+
+<br>
+<br>Twitter is a network. It connects people based on their ideas rather than pre-existing relationships.
+<br>
+
+<br>
+
+<br>incentive to read - leaderboards (social-capital)
+<br>children might mark them as read, just to show off. The system might get gamed
+<br>"as Mr. Munger says, people tend to game any system you put in place, and then they tend to rationalize that gaming until they believe they really are doing the right thing. I think it was Andy Grove who said that for every goal you put in front of someone, you should also put in place a counter-goal to restrict gaming of the first goal. 
+<br> end of the day, who are they fooling ? Hence, only those who come for the utility 
+<br> 
+
+<br>
+
+
+
+<br> Say, it grows into a single place for (or) go-to place for a lot of things.
+<br> Yes, if we succeed in gathering enough no. of users, 
+
+<br> But then again, it'll become yet another noisy feed. example - matter app
+<br> So, stick to being a reading queue and focus on 1/2 things alone.
+
+
+
+
+
+
+<br> for them, reasons to open the app is divided between utility and entertainment.
+<br> And so far i argued curation ≠ filtration. And it is based on a utilitarian perspective.
+
+<br>it is for utility or entertainment, based on what the user wants out of it
+<br> status games basically evaluate PoW done by user's and rewards them
+<br> Them using it is based on whatever they see it as, (utility or entertainment) and, what everyone else perceives it also has an influence on the user's perception of the app.
+
+<br>
+<br>
+
+<br>--
+<br>entertainment-based / status axis
+<br>--
+<br> utlimately, users are playing the game knowingly or unknowingly. 
+<br>[[<a href ="https://www.eugenewei.com/blog/2019/2/19/status-as-a-service">status as a service - eugene wei</a>]]
+<br>As with cryptocurrency, if it were so easy, it wouldn't be worth anything.<span style="background-color: #FFFF00">Value is tied to scarcity, and scarcity on social networks derives from proof of work. Status isn't worth much if there's no skill and effort required to mine it. It's not that a social network that makes it easy for lots of users to perform well can't be a useful one, but competition for relative status still motivates humans.</span> Recall our first tenet: humans are status-seeking monkeys. Status is a relative ladder. By definition, if everyone can achieve a certain type of status, it’s no status at all, it’s a participation trophy.
+<br>
+<br>Almost every social network of note had an early signature proof of work hurdle. For Facebook it was posting some witty text-based status update. For Instagram, it was posting an interesting square photo. For Vine, an entertaining 6-second video. For Twitter, it was writing an amusing bit of text of 140 characters or fewer. Pinterest? Pinning a compelling photo. You can likely derive the proof of work for other networks like Quora and Reddit and Twitch and so on. Successful social networks don't pose trick questions at the start, it’s usually clear what they want from you.
+
+
+
+<br>
+<br> indie writers and publishers can write anywhere, but they need to get paid.
+<br> Medium, Substack, Twitter - all of them can add weights to content like 'curated by nameofuser' or 'written by', but these platforms still fail at showing relevant content. Tech should only show content that might be interesting or actually make sense to him or give him more context about something. hide irrelevant content even if the user follows that writer / publisher.
+When we look at trends in consumption of online content and the “rules” holding us back, we can sum them up in one major bottleneck: We are still broadcasting journalism, while new digital content distribution platform players such as Facebook and Google are offering deeply personal experiences.
+From Broadcasting to 1:1 Journalism
+
+
+
+
+
+
+
+
+<br>publishing platforms - substack, medium
+<br>discovery / curation apps and digital garden apps, in no particular order - { flipboard, feed, refind, matter app, nuzzel, deepstash, mymind, stash, sublist, are.na, odin }
+<br> read-later - pocket, instapaper, diigo, abyss.
+
+<br> From the publisher's PoV, (publisher's = individual creators (people and pages))
+--
+<br> Readers(most) don't go to the website directly. They'd read it wherever they found it (feed, mail app) (or) save it for later. 
+<br> they have dedicated apps to read articles and pdfs that they saved to them. but then all other sorts of text-first content can only be bookmarked, they cannot be brought to a more centralised information system. 
+<br>
+<br> They have to keep posting consistently and keep optimizing their presence according to the algorithm
+<br>(1) social-media - to get picked up by the algorithm, to be shown in more no. of feeds (feeds of users who might find it relevant) and 
+<br>(2) search - to get ranked in the 1st page. 
+<br> But, Email is a direct relationship with the reader. Hence, Newsletters > having to get ranked in a feed (social-media platforms and SERPs). 
+<br> 
+
+<br>
+<br>
+<br>
+<br> all sorts of text content can be segmented based on where it is posted,
+<br> (1) articles, pdfs - publishing platforms and discovery apps
+<br> (2) (tweets, linkedin posts, reddit posts, quora answers & posts, facebook posts, captions in Instagram, Tumblr posts.etc) - social-media
+<br>
+<br> It can be written anywhere and reposted anywhere on the internet. But, there seems to a possibility that an app dedicated to reading for those with high attention spans, just for reading. 
+<br>
+
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+<br>Now consider, reading articles as entertainment. It seems like we have certain expectations when we read something (utility), but we could also call it entertainment, as not all of us go great lengths to retain what we read. We don't have a clear metric to measure this sort of proof of work. 
+<!--According to me, We only read to know just enough. maybe just for the sake of bragging rights, or to win arguments, or for n unknown reasons.
+But what is clear is, since we read (consume) a lot of content, by default unless until we go back to it, we might not be able to understand it completely yet.-->
 
 
 
@@ -153,91 +209,35 @@ if 2(or any number of) good articles per day seems acheiveable, then we
 
 
 
-
-
-
-
-'Articles' can be broken down based on shelf life and word count.
-my assumption is only those with shelf life greater than a day to a week, get bookmarked.
-
-<a href="https://dcgross.com/a-new-google">A New Google - dcgross.com | December 2020</a>
-
-
-Now consider, reading articles as entertainment. It seems like we have certain expectations when we read something (utility). According to me,   
-We only read to know just enough. maybe just for the sake of bragging rights, or to win arguments, or for n unknown reasons.
-But what is clear is, since we read (sonsume) a lot of content, by default unless until we go back to it, we might not be able to understand it completely yet.
-
-
-
-
-
-
-<br>James Currier (14:17):
-<br>Right. And ultimately, I think we've heard this before, but it's competing for our attention. It's competing for our time. And ultimately there's only a certain number of hours in the day. And so as we look at a world of the internet or of Chinese manufacturing with sort of an infinitude of anything you might want, as we move to the infinity, then really we're looking for scarcity. And scarcity is created by the number of hours in the day, for instance.
-
-<br>James Currier (16:40):
-<br>As we look at the gamification of everything, we realized that the world had been gamified before with U.S. News & World Report publishing the list of colleges in 1981, which has set off this mad, crazy game about getting into college and achieving status and that sort of thing. They created this scarcity. Who's number one? Who's in the top 10? Who's in the top 50? What other ways are you seeing people create scarcity that then produces energy for people or produces businesses?
-<br>Eugene Wei (17:05):
-<br>Yeah. That's a great question. I love your U.S. News & World Report example. A lot of, I feel like, the tension from the last generation of media to this new world of more distributed network media is just that the gatekeepers that used to define scarcity have lost a lot of power in the modern world. <font color="black">And ultimately, if you're allowed to define scarcity on any axis, that is a form of power.</font> So if we were to look at networked apps and things like that, you brought up lists and ranks lists. That's certainly going to continue to be a really important way in which people define scarcity. And that's like working its way through every sort of vertical in the world. I also think there is just like, if we were to look at video games, that's just a metaphor for a lot of us and you study the video game world, and you see that they've become really the leaders in the world at figuring out how to define forms of scarcity.
-
-<br> It seems like users creating folders of links is them basically creating scarcity.
+<!-- nobody put it this way-->
+<br> It seems like users creating folders of links is them, creating scarcity in a way.
 
 <br> Bookmark function in social networks, is for things the user wants to get his/her attention back to, is spread across a wide spectrum of apps. But they’re all silos of knowledge you gathered. 
 <br> Aggregating all these silos and pooling it all into one place is a natural thought. But, it's not possible unless they give APIs.
 <br>All of it are unique games - Reddit, Quora, LinkedIn, Twitter, Facebook, Instagram, Snapchat - all these places have network effects in play. 
 
-<br> We need to realize that the user is actually submitting links to the reading app, but then it has remained chronological all this while. 
-<br> Indexing is being done by the reader himself, as he is basically weaving his demonstrable understanding, by naming the space properly during consumption itself, making collections of links about topics he knows about in depth. This is just my observation.
 
-<br> People submit their sites to google for it to crawl, index and serve it to end-users.
-<br> [1] On the other hand, bookmarks are basically the internet I set aside for later consumption and [2] and power-users foldering bookmarks seems like users are creating an index for their bookmarks.
+<br> social-layer is basically a status game on top of a utility I guess. And we're not going to stop using it all of a sudden. we're so used to it. 
+<br>The problem is if all forms of entertainment are now effectively substitutes for each other, you actually don't compete with other movie studios. You actually compete with a game company that has built a really fun party game, social layer. And in the end user's mind, there's no distinction. So I think you compete with the best on every aspect, regardless of what industry they come from.
+<br>James Currier (14:02):
+<br>Absolutely. But Fortnite effectively is everyone's biggest competitor in entertainment, just as Netflix is a big competitor for Fortnite and vice versa.
 
-
-
-
-
-
-
-
-<br> At the time of bookmarking itself we can ask him for inputs ? we might get to know how important it is to him.
-<br> When the user gives contextual inputs like for the author, for the blog, for the headline, all three.,, or something similar, that tries to capture as much info as possible for the algorithm to decide how important it is to the user,, it becomes easier to prioritize.
-<br> When saving it, we try to put it under a folder and add appropriate hashtags for us to be able to access it easily the next time around. (power-user)
-
-
-
-
-
-
-
-
-
-
-
-<br> [multi-player utility] 
-<br><a href="https://cdixon.org/2015/01/31/come-for-the-tool-stay-for-the-network">come for the tool stay, stay for the network</a>
-
-<br>// aggregating readlists of some of the greatest people (set of quality users in a controlled environment) 
-<br>better SERPs (basic logic that my friend who knows about it can guide me better than GOOG). Searching those keywords inside the reading lists of people you follow here would give better results than google, but the user is still in an echochamber.
-
-<hr style="height:2px;border-width:0;color:black;background-color:black">
-\[1\] search - SERPs /consensus/
-<br><p style="color:red;"> search in consumption app (reading app) /platform </p>
-
-
-
-assuming the users of reading apps wouldn't have save generic content, it could be said that searching inside bookmarks would by default give better results than google. / Think of the search bar in news.ycombinator.com/
-<br> And, the use of query-modifiers is enough validation that, Google is not serving quality content. It has more generic SEO-centric content in it SERPs.
-<br><a href="https://dcgross.com/a-new-google">A New Google - dcgross.com | December 2020</a>
+<br> Yahoo was making a list of lists, but Google made search better.
+<br>"All curation grows until it requires search. All search grows until it requires curation." — Benedict Evans (@benevans) December 18, 2015
 <br>
-<br> One interesting pattern I found among readers in twitter is that, quality pieces of content they come across in their feeds cannot be found in google search results, by a noob who is trying to learn that topic. 
-<br> Only because they follow certain people on twitter, they’re able to access such content and google cannot give you that, as it unnecessarily searches through a lot of noise and that too only based on the combinations of keywords you enter (this is a skill in itself). Maybe I'm not articulating it properly. It seems it's like Google is running a contest to decide who should be shown in the 1st page of SERPs (have temporary ownership over certain keyword 
-combinations) in Google's state-of-the-art Search Engine.  
-<hr style="height:2px;border-width:0;color:black;background-color:black">
+<br> It makes sense back then, but now it's hard to say, if we need more curation[3] or better search[2] or a hybrid model, but remember this feeds are all lists, search is a filtered list
+<br>
+<br>"Hence, I always thought the most appealing part of Flipboard was the manually curated directory of sites to follow. It's a list of lists, but it isn't trying to encompass everything, and so, unlike Yahoo, it isn't unmanageably big. But that just relocates the problem - what if you want a list that isn't on the list of lists? If you wanted to find 5 new sites to read about a topic you care about - ice-climbing, or vintage furniture, or experimental electronic music, or children's picture books - where would you find it? Can you create a platform for all those lists without turning into Yahoo? And it's worth remembering that Google hasn't actually solved this either - it might give you one blog post, but not a list of 20 sites to try. (Indeed, one could suggest that blogs themselves break Google in some sense - you're looking for a stream, but Google can only give you the post.)"
+<br><a href"https://www.ben-evans.com/benedictevans/2016/1/31/lists-are-the-new-search">Lists are the new search - ben-evans.com | 31 Jan 2016</a> 
+<br>
+<br> As the number of pages on the Internet kept increasing, search made sense. 
+<br> When we introduce scarcity, there'll be chance to build irreplaceable business on top of the platform/aggregator. 
 
-<br><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRSennInpMHnOt8lnu3QKiBmR6gFIUcgL4Q1KmPUjbVMsWWQ/viewform?embedded=true" width="750" height="475" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<br> // this whole video is about the difference between platforms and aggregators, and how they accrue power - <a href="https://www.youtube.com/watch?v=tj6uGz2oo5c">Ben Thompson, founder of Stratechery | Code 2018</a>
 
-<hr style="height:2px;border-width:0;color:black;background-color:black">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I love trying to break down any platform with user content’s “discover/explore/leaderboard” page. <br><br>Many competing objectives in one spot. <br>1. Representative of community<br>2. Relevance to user<br>3. balance of “explore/exploit”. <br>4. spotlight partnerships+mrktng one offs.</p>&mdash; Sriram Krishnan (@sriramk) <a href="https://twitter.com/sriramk/status/1231010031308460032?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 
 
 
